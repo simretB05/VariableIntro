@@ -1,6 +1,8 @@
 let my_name = "green";
 let mom ="simret"
 let my_lapTop = "hp"
+let is_member = false;
+user_name ="Alex"
 
 let age = 67;
 let RAM = 8;
@@ -22,12 +24,12 @@ console.log( mom )
 console.log( age_ram )
 
 let user_points = 100;
-user_points=50
-if( user_points >= 75) {
-    console.log( "congrats" + " your value is " + user_points )
-} else if ( user_points = 50 )
+user_points=43
+if( user_points >= 90 && is_member) {
+    console.log( "congrats" + " your value is " + user_points + " and youa are a member" )
+} else if ( user_points >= 50  || is_member )
 {
-    console.log("almost half ways you are lazy ")
+    console.log("almost half way you are lazy "+ " and you are not a member")
     
 }else{
 
@@ -35,3 +37,10 @@ if( user_points >= 75) {
 }
 
 
+if ( user_name === "Alex" )
+{
+    console.log(" hello Alex your password is 123")
+} else
+{
+    console.log("hello")
+}
