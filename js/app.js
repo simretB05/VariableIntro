@@ -22,9 +22,9 @@ console.log( mom )
 console.log( age_ram )
 
 let user_points = 100;
-user_points=60
+user_points=76
 if( user_points >= 75) {
-    console.log( "congrats" )
+    console.log( "congrats" + " your value is " + user_points )
 }
 else{
 
