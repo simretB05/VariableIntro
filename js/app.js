@@ -19,4 +19,16 @@ console.log( departure_date )
 console.log( my_car )
 console.log( my_color )
 console.log( mom )
-console.log(age_ram)
+console.log( age_ram )
+
+let user_points = 100;
+user_points=60
+if( user_points >= 75) {
+    console.log( "congrats" )
+}
+else{
+
+    console.log( "no congrats for you" )
+}
+
+
