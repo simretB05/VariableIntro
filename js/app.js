@@ -28,7 +28,7 @@ if( user_points >= 75) {
 }
 else{
 
-    console.log( "no congrats for you" )
+    console.log( "no congrats for you your value should be " + user_points )
 }
 
 
